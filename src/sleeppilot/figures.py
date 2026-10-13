@@ -92,7 +92,8 @@ def figure1(R, outdir):
     ]
     side = {1: [(lx, f"Did not join: n = {f['poor_not_joined']}")],
             2: [(lx, f"No follow-up form: n = {f['poor_lost']}"),
-                (rx, f"No follow-up form: n = {f['good_lost']}\nConsent item answered 'No': n = {f['good_excluded_consent']}")]}
+                (rx, f"No follow-up form: n = {f['good_lost']}"
+                     + (f"\nConsent item answered 'No': n = {f['good_excluded_consent']}" if f["good_excluded_consent"] else ""))]}
     fig, ax = plt.subplots(figsize=(6.5, 6.3))
     y, placed = 0.0, []
     for i, row in enumerate(rows):

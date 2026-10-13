@@ -52,7 +52,8 @@ def run():
         followup_forms=c["followup_forms_submitted"],
         poor_followup_submitted=int(poor_all["fu_submitted"].sum()), poor_analysed=len(poor),
         good_followup_submitted=int(good_all["fu_submitted"].sum()), good_analysed=len(good),
-        good_excluded_consent=int(good_all["fu_excluded_consent"].sum()))
+        good_excluded_consent=int(good_all["fu_excluded_consent"].sum()),
+        consent_confirmed_in_writing=int(w["fu_consent_confirmed"].sum()))
     f = R["flow"]
     f["poor_not_joined"] = f["third_year_poor"] - f["joined_poor"]
     f["poor_lost"] = f["joined_poor"] - f["poor_analysed"]

@@ -15,25 +15,26 @@
     "poor_followup_submitted": 24,
     "poor_analysed": 24,
     "good_followup_submitted": 16,
-    "good_analysed": 15,
-    "good_excluded_consent": 1,
+    "good_analysed": 16,
+    "good_excluded_consent": 0,
+    "consent_confirmed_in_writing": 1,
     "poor_not_joined": 12,
     "poor_lost": 8,
     "good_lost": 6
   },
   "interval_days": {
     "baseline_to_followup": {
-      "median": 85.0,
+      "median": 82.5,
       "min": 79.0,
       "max": 89.0
     },
     "programme_start_to_followup": {
-      "median": 38.0,
+      "median": 35.0,
       "min": 31.0,
       "max": 41.0
     },
     "after_programme_end": {
-      "median": 10.0,
+      "median": 7.0,
       "min": 3.0,
       "max": 13.0
     },
@@ -56,17 +57,17 @@
       "ci_high": 17.54849622144751
     },
     "good": {
-      "n": 15,
-      "mean": 17.2,
-      "sd": 9.10415917510861,
-      "ci_low": 12.158284697358479,
-      "ci_high": 22.24171530264152
+      "n": 16,
+      "mean": 16.8125,
+      "sd": 8.930985387962517,
+      "ci_low": 12.053513813357585,
+      "ci_high": 21.571486186642417
     }
   },
   "useful": {
-    "yes": 36,
+    "yes": 37,
     "partly": 3,
-    "n": 39
+    "n": 40
   },
   "homogeneity": {
     "age_min": 20.0,
@@ -386,72 +387,72 @@
   },
   "good": {
     "psqi": {
-      "n": 15,
-      "mean_pre": 3.8666666666666667,
-      "sd_pre": 0.833809387832792,
-      "mean_post": 2.466666666666667,
-      "sd_post": 1.9952324127660872,
+      "n": 16,
+      "mean_pre": 3.8125,
+      "sd_pre": 0.8341662504161466,
+      "mean_post": 2.375,
+      "sd_post": 1.9621416870348585,
       "median_pre": 4.0,
       "median_post": 2.0,
       "q1_pre": 3.0,
-      "q3_pre": 4.5,
+      "q3_pre": 4.25,
       "q1_post": 1.0,
-      "q3_post": 3.5,
-      "median_diff": -1.0,
-      "mean_diff": -1.4,
-      "sd_diff": 1.7237832147426693,
-      "ci_low": -2.354599325983449,
-      "ci_high": -0.4454006740165509,
-      "dz": -0.8121670915614498,
-      "t_p": 0.007155217812347527,
-      "wilcoxon_p": 0.013502003177031333
+      "q3_post": 3.25,
+      "median_diff": -1.5,
+      "mean_diff": -1.4375,
+      "sd_diff": 1.672074559741082,
+      "ci_low": -2.3284856401253586,
+      "ci_high": -0.5465143598746415,
+      "dz": -0.8597104666328962,
+      "t_p": 0.0036545728872398953,
+      "wilcoxon_p": 0.00847340396399847
     },
     "ess": {
-      "n": 15,
-      "mean_pre": 5.866666666666666,
-      "sd_pre": 3.4198301266639097,
-      "mean_post": 3.1333333333333333,
-      "sd_post": 3.37779866326041,
+      "n": 16,
+      "mean_pre": 5.8125,
+      "sd_pre": 3.310966626228661,
+      "mean_post": 3.125,
+      "sd_post": 3.263433774416144,
       "median_pre": 5.0,
       "median_post": 2.0,
       "q1_pre": 4.0,
-      "q3_pre": 7.5,
-      "q1_post": 0.5,
-      "q3_post": 4.5,
+      "q3_pre": 7.25,
+      "q1_post": 0.75,
+      "q3_post": 4.25,
       "median_diff": -3.0,
-      "mean_diff": -2.7333333333333334,
-      "sd_diff": 3.84460041889302,
-      "ci_low": -4.862402080007977,
-      "ci_high": -0.6042645866586898,
-      "dz": -0.710953814576222,
-      "t_p": 0.01553745111081889,
-      "wilcoxon_p": 0.030340016142305755
+      "mean_diff": -2.6875,
+      "sd_diff": 3.718758753491098,
+      "ci_low": -4.669086663793339,
+      "ci_high": -0.7059133362066612,
+      "dz": -0.7226873745109245,
+      "t_p": 0.011202830393467053,
+      "wilcoxon_p": 0.020706216472488822
     },
     "duration": {
-      "n": 15,
-      "mean_pre": 6.933333333333334,
-      "sd_pre": 0.7037315505489967,
-      "mean_post": 7.953333333333333,
-      "sd_post": 0.46731247830648864,
+      "n": 16,
+      "mean_pre": 7.0,
+      "sd_pre": 0.7302967433402214,
+      "mean_post": 7.95625,
+      "sd_post": 0.451617463494641,
       "median_pre": 7.0,
       "median_post": 8.0,
-      "q1_pre": 6.5,
-      "q3_pre": 7.0,
+      "q1_pre": 6.75,
+      "q3_pre": 7.25,
       "q1_post": 8.0,
       "q3_post": 8.0,
       "median_diff": 1.0,
-      "mean_diff": 1.02,
-      "sd_diff": 0.6909620622209092,
-      "ci_low": 0.6373579640206211,
-      "ci_high": 1.402642035979379,
-      "dz": 1.4762026104899133,
-      "t_p": 5.321189901895264e-05,
+      "mean_diff": 0.95625,
+      "sd_diff": 0.7145802963978227,
+      "ci_low": 0.5754770379943037,
+      "ci_high": 1.3370229620056964,
+      "dz": 1.3381981070852735,
+      "t_p": 8.056410773396015e-05,
       "wilcoxon_p": 0.0013155275236832191
     },
     "exactly_8h": {
-      "n": 15,
-      "pre_pos": 3,
-      "post_pos": 11,
+      "n": 16,
+      "pre_pos": 4,
+      "post_pos": 12,
       "to_negative": 0,
       "to_positive": 8,
       "p": 0.0078125
@@ -466,11 +467,11 @@
         -2.2202583234344484,
         0.15104928388642636
       ],
-      "expected_good": 0.7096045197740115,
-      "adjusted_good": -2.1096045197740114,
+      "expected_good": 0.7637711864406782,
+      "adjusted_good": -2.201271186440678,
       "adjusted_good_ci": [
-        -3.0642038457574605,
-        -1.1550051937905623
+        -3.092256826566037,
+        -1.3102855463153196
       ],
       "barnett_expected_poor": -2.9695271404934247,
       "barnett_expected_poor_third": -2.7172333945873044
@@ -483,11 +484,11 @@
         -2.8800040861463128,
         -0.508696478825438
       ],
-      "expected_good": 0.5676836158192092,
-      "adjusted_good": -1.967683615819209,
+      "expected_good": 0.6110169491525426,
+      "adjusted_good": -2.0485169491525426,
       "adjusted_good_ci": [
-        -2.922282941802658,
-        -1.0130842898357602
+        -2.939502589277901,
+        -1.157531309027184
       ],
       "barnett_expected_poor": -2.37562171239474,
       "barnett_expected_poor_third": -2.1737867156698436
@@ -500,11 +501,11 @@
         -3.539749848858177,
         -1.1684422415373024
       ],
-      "expected_good": 0.4257627118644069,
-      "adjusted_good": -1.8257627118644069,
+      "expected_good": 0.4582627118644069,
+      "adjusted_good": -1.895762711864407,
       "adjusted_good_ci": [
-        -2.7803620378478557,
-        -0.8711633858809578
+        -2.7867483519897656,
+        -1.0047770717390483
       ],
       "barnett_expected_poor": -1.7817162842960543,
       "barnett_expected_poor_third": -1.6303400367523824
@@ -517,11 +518,11 @@
         -3.8696227302141093,
         -1.4983151228932345
       ],
-      "expected_good": 0.35480225988700576,
-      "adjusted_good": -1.7548022598870057,
+      "expected_good": 0.3818855932203391,
+      "adjusted_good": -1.819385593220339,
       "adjusted_good_ci": [
-        -2.709401585870455,
-        -0.8002029339035567
+        -2.7103712333456977,
+        -0.9283999530949806
       ],
       "barnett_expected_poor": -1.4847635702467123,
       "barnett_expected_poor_third": -1.3586166972936522
@@ -534,11 +535,11 @@
         -4.1994956115700415,
         -1.8281880042491667
       ],
-      "expected_good": 0.2838418079096046,
-      "adjusted_good": -1.6838418079096045,
+      "expected_good": 0.3055084745762713,
+      "adjusted_good": -1.7430084745762713,
       "adjusted_good_ci": [
-        -2.638441133893054,
-        -0.7292424819261556
+        -2.63399411470163,
+        -0.8520228344509128
       ],
       "barnett_expected_poor": -1.18781085619737,
       "barnett_expected_poor_third": -1.0868933578349218
@@ -551,11 +552,11 @@
         -4.463393916654788,
         -2.0920863093339124
       ],
-      "expected_good": 0.22707344632768364,
-      "adjusted_good": -1.6270734463276835,
+      "expected_good": 0.24440677966101698,
+      "adjusted_good": -1.681906779661017,
       "adjusted_good_ci": [
-        -2.5816727723111326,
-        -0.6724741203442346
+        -2.572892419786376,
+        -0.7909211395356585
       ],
       "barnett_expected_poor": -0.9502486849578956,
       "barnett_expected_poor_third": -0.8695146862679372
@@ -568,11 +569,11 @@
         -4.529368492925974,
         -2.158060885605099
       ],
-      "expected_good": 0.21288135593220348,
-      "adjusted_good": -1.6128813559322035,
+      "expected_good": 0.2291313559322035,
+      "adjusted_good": -1.6666313559322035,
       "adjusted_good_ci": [
-        -2.5674806819156526,
-        -0.6582820299487544
+        -2.557616996057562,
+        -0.7756457158068449
       ],
       "barnett_expected_poor": -0.8908581421480275,
       "barnett_expected_poor_third": -0.8151700183761914
@@ -585,11 +586,11 @@
         -4.859241374281906,
         -2.487933766961031
       ],
-      "expected_good": 0.14192090395480228,
-      "adjusted_good": -1.5419209039548023,
+      "expected_good": 0.1527542372881356,
+      "adjusted_good": -1.5902542372881356,
       "adjusted_good_ci": [
-        -2.4965202299382514,
-        -0.5873215779713532
+        -2.4812398774134943,
+        -0.6992685971627771
       ],
       "barnett_expected_poor": -0.5939054280986847,
       "barnett_expected_poor_third": -0.5434466789174607
@@ -602,11 +603,11 @@
         -5.090152391231058,
         -2.7188447839101837
       ],
-      "expected_good": 0.0922485875706215,
-      "adjusted_good": -1.4922485875706215,
+      "expected_good": 0.09929025423728817,
+      "adjusted_good": -1.5367902542372882,
       "adjusted_good_ci": [
-        -2.4468479135540706,
-        -0.5376492615871724
+        -2.4277758943626466,
+        -0.6458046141119297
       ],
       "barnett_expected_poor": -0.38603852826414514,
       "barnett_expected_poor_third": -0.35324034129634957
@@ -619,11 +620,11 @@
         -5.189114255637838,
         -2.8178066483169633
       ],
-      "expected_good": 0.07096045197740114,
-      "adjusted_good": -1.470960451977401,
+      "expected_good": 0.0763771186440678,
+      "adjusted_good": -1.5138771186440678,
       "adjusted_good_ci": [
-        -2.42555977796085,
-        -0.516361125993952
+        -2.4048627587694265,
+        -0.6228914785187093
       ],
       "barnett_expected_poor": -0.29695271404934237,
       "barnett_expected_poor_third": -0.27172333945873034
@@ -636,14 +637,14 @@
     "third_mean": 4.598484848484849,
     "third_sd": 2.646789351270268,
     "poor_baseline_mean": 7.875,
-    "good_baseline_mean": 3.8666666666666667,
+    "good_baseline_mean": 3.8125,
     "ci_excludes_zero_from_r": 0.05
   },
   "observed_correlation": {
-    "all": 0.31203984028550275,
+    "all": 0.3323850714178809,
     "poor": 0.1616971780706912,
-    "good": 0.5123579323566588,
-    "n_all": 39
+    "good": 0.5345952228173368,
+    "n_all": 40
   },
   "expected_below_cutoff": {
     "0.0": 14.952380997181505,
@@ -1039,31 +1040,31 @@
       }
     },
     "good": {
-      "n_students": 15,
-      "n_nights": 258,
-      "student_mean": 4.218990423481651,
-      "mean_score": 4.271317829457364,
-      "week1": 3.880952380952381,
+      "n_students": 16,
+      "n_nights": 269,
+      "student_mean": 4.165530794741321,
+      "mean_score": 4.234200743494424,
+      "week1": 3.8444444444444446,
       "week4": 4.375,
       "habits": {
         "adh_fixed": {
-          "kept": 79.45736434108527,
-          "partly": 16.666666666666664
+          "kept": 78.06691449814126,
+          "partly": 16.728624535315987
         },
         "adh_screen": {
-          "kept": 72.48062015503875,
-          "partly": 15.891472868217054
+          "kept": 71.00371747211895,
+          "partly": 17.100371747211895
         },
         "adh_caffeine": {
-          "kept": 98.06201550387597,
+          "kept": 97.76951672862454,
           "partly": 0.0
         },
         "adh_phone": {
-          "kept": 82.55813953488372,
-          "partly": 14.728682170542637
+          "kept": 82.8996282527881,
+          "partly": 14.49814126394052
         },
         "adh_winddown": {
-          "kept": 70.93023255813954,
+          "kept": 69.51672862453532,
           "partly": 0.0
         }
       }
@@ -1106,18 +1107,18 @@
       "p": 0.04036067957532934
     },
     "good_mean_adh_score": {
-      "n": 15,
-      "coef": -1.591422375506091,
-      "ci_low": -2.5702922389260854,
-      "ci_high": -0.6125525120860967,
-      "p": 0.001440249567809776
+      "n": 16,
+      "coef": -1.3081021918390405,
+      "ci_low": -2.3351433997023747,
+      "ci_high": -0.28106098397570656,
+      "p": 0.012548600586152384
     },
     "good_n_diary_days": {
-      "n": 15,
-      "coef": 0.027041004802364245,
-      "ci_low": -0.10601393927773906,
-      "ci_high": 0.16009594888246753,
-      "p": 0.6903890563082076
+      "n": 16,
+      "coef": 0.028160437221107684,
+      "ci_low": -0.09688182531844196,
+      "ci_high": 0.1532026997606573,
+      "p": 0.6589246690801671
     }
   },
   "diary_sleep": {
@@ -1128,10 +1129,10 @@
       "n_nights": 323
     },
     "good": {
-      "week1_mean_h": 8.125,
+      "week1_mean_h": 8.161111111111111,
       "week4_mean_h": 8.261363636363637,
-      "pct_nights_8h": 59.30232558139535,
-      "n_nights": 258
+      "pct_nights_8h": 59.479553903345725,
+      "n_nights": 269
     }
   },
   "attrition": {
@@ -1334,7 +1335,7 @@
       "characteristic": "n",
       "poor_followed": "24",
       "poor_not_followed": "8",
-      "good_followed": "15"
+      "good_followed": "16"
     },
     {
       "characteristic": "Age, years, mean (SD)",
@@ -1346,25 +1347,25 @@
       "characteristic": "Female, n (%)",
       "poor_followed": "16 (67)",
       "poor_not_followed": "6 (75)",
-      "good_followed": "7 (47)"
+      "good_followed": "8 (50)"
     },
     {
       "characteristic": "Hostel resident, n (%)",
       "poor_followed": "19 (79)",
       "poor_not_followed": "7 (88)",
-      "good_followed": "12 (80)"
+      "good_followed": "13 (81)"
     },
     {
       "characteristic": "PSQI global, mean (SD)",
       "poor_followed": "7.9 (1.8)",
       "poor_not_followed": "7.9 (1.9)",
-      "good_followed": "3.9 (0.8)"
+      "good_followed": "3.8 (0.8)"
     },
     {
       "characteristic": "ESS total, mean (SD)",
       "poor_followed": "7.8 (4.3)",
       "poor_not_followed": "7.6 (3.4)",
-      "good_followed": "5.9 (3.4)"
+      "good_followed": "5.8 (3.3)"
     },
     {
       "characteristic": "Excessive daytime sleepiness (ESS >10), n (%)",
@@ -1376,37 +1377,37 @@
       "characteristic": "SHI total, mean (SD)",
       "poor_followed": "16.9 (6.1)",
       "poor_not_followed": "16.0 (8.6)",
-      "good_followed": "12.1 (4.9)"
+      "good_followed": "12.1 (4.7)"
     },
     {
       "characteristic": "Perceived stress (0-10), mean (SD)",
       "poor_followed": "4.5 (2.1)",
       "poor_not_followed": "6.0 (1.7)",
-      "good_followed": "3.6 (2.1)"
+      "good_followed": "3.8 (2.2)"
     },
     {
       "characteristic": "Low mood or anxiety affecting sleep, n (%)",
       "poor_followed": "17 (71)",
       "poor_not_followed": "6 (75)",
-      "good_followed": "5 (33)"
+      "good_followed": "6 (38)"
     },
     {
       "characteristic": "Digital sleep-hygiene risk score, mean (SD)",
       "poor_followed": "10.8 (2.7)",
       "poor_not_followed": "10.2 (2.8)",
-      "good_followed": "9.1 (3.3)"
+      "good_followed": "9.2 (3.2)"
     },
     {
       "characteristic": "Latest university examination, %, mean (SD)",
       "poor_followed": "67.5 (5.8)",
       "poor_not_followed": "65.4 (4.9)",
-      "good_followed": "69.7 (5.5)"
+      "good_followed": "69.6 (5.3)"
     },
     {
       "characteristic": "Diary days completed (of 28), mean (SD)",
       "poor_followed": "13.5 (9.7)",
       "poor_not_followed": "2.1 (1.7)",
-      "good_followed": "17.2 (9.1)"
+      "good_followed": "16.8 (8.9)"
     }
   ]
 }

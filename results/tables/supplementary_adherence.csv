@@ -1,16 +1,16 @@
 Measure,Poor sleepers,Good sleepers
-"Diary nights habit kept: Fixed sleep-wake time, %",76,79
-"Diary nights habit kept: No bright screens for 45 min before bed, %",71,72
+"Diary nights habit kept: Fixed sleep-wake time, %",76,78
+"Diary nights habit kept: No bright screens for 45 min before bed, %",71,71
 "Diary nights habit kept: No caffeine after 18:00, %",95,98
 "Diary nights habit kept: Phone silent and out of reach, %",90,83
-"Diary nights habit kept: Ten-minute wind-down, %",67,71
+"Diary nights habit kept: Ten-minute wind-down, %",67,70
 "Diary adherence score (0-5), mean of student means",4.0,4.2
-"Diary adherence score (0-5), week 1 vs week 4 nights",3.9 vs 4.5,3.9 vs 4.4
-Diary nights (students),323 (22),258 (15)
+"Diary adherence score (0-5), week 1 vs week 4 nights",3.9 vs 4.5,3.8 vs 4.4
+Diary nights (students),323 (22),269 (16)
 "Follow-up: kept a fixed schedule on most days, yes / partly / no",18 / 5 / 1,—
 "Follow-up: avoided screens on most days, yes / partly / no",16 / 7 / 1,—
 "Follow-up: avoided caffeine after 18:00 on most days, yes / partly / no",20 / 4 / 0,—
 Follow-up: overall adherence good / moderate / poor,14 / 9 / 1,—
 "PSQI change, status completed vs not completed (95% CI of difference)",−5.05 vs −1.60 (−6.39 to −0.52),—
-PSQI change per adherence point (95% CI),−2.37 (−3.39 to −1.34); n = 22,−1.59 (−2.57 to −0.61); n = 15
-PSQI change per diary day (95% CI),−0.097 (−0.190 to −0.004); n = 24,0.027 (−0.106 to 0.160); n = 15
+PSQI change per adherence point (95% CI),−2.37 (−3.39 to −1.34); n = 22,−1.31 (−2.34 to −0.28); n = 16
+PSQI change per diary day (95% CI),−0.097 (−0.190 to −0.004); n = 24,0.028 (−0.097 to 0.153); n = 16

@@ -13,8 +13,8 @@ DATA = ROOT / "data"
 PROGRAMME_LAST_DAY = 28          # day 0 = education session (13 July 2026); day 28 = 10 August 2026
 
 # Ethical rule for the follow-up form: a form is analysed only if the respondent answered "Yes" to
-# "I agree to participate in this digital form" on that same form. One good sleeper answered "No" and is
-# excluded from every analysis. The status item ('Completed', 'Lost to follow-up', 'Withdrawn') records
+# "I agree to participate in this digital form" on that same form, or later confirmed consent in writing.
+# One good sleeper answered "No" and subsequently confirmed consent in writing. The status item ('Completed', 'Lost to follow-up', 'Withdrawn') records
 # programme participation, not consent, and does not affect eligibility for analysis.
 REQUIRE_FOLLOWUP_AGREEMENT = True
 
@@ -48,13 +48,15 @@ def build_wide(d):
                                   consent_agree=fu["consent_agree"].values,
                                   fu_adh_fixed=fu["fu_adh_fixed"].values, fu_adh_screen=fu["fu_adh_screen"].values,
                                   fu_adh_caffeine=fu["fu_adh_caffeine"].values,
-                                  fu_adh_overall=fu["fu_adh_overall"].values, fu_useful=fu["fu_useful"].values)
+                                  fu_adh_overall=fu["fu_adh_overall"].values, fu_useful=fu["fu_useful"].values,
+                                  consent_confirmed=fu["consent_confirmed_in_writing"].values)
     w = d["participants"].merge(bs, on="pid", how="left").merge(fs, on="pid", how="left")
     w["fu_submitted"] = w["f_PSQI_global"].notna() | w["f_ESS_total"].notna()
     complete = w["f_PSQI_global"].notna() & w["f_ESS_total"].notna()
-    agreed = (w["consent_agree"] == "Yes") if REQUIRE_FOLLOWUP_AGREEMENT else True
+    agreed = ((w["consent_agree"] == "Yes") | (w["consent_confirmed"] == 1)) if REQUIRE_FOLLOWUP_AGREEMENT else True
     w["fu_analysed"] = complete & agreed
     w["fu_excluded_consent"] = complete & ~agreed if REQUIRE_FOLLOWUP_AGREEMENT else False
+    w["fu_consent_confirmed"] = complete & (w["consent_agree"] != "Yes") & (w["consent_confirmed"] == 1)
     w["change"] = w["f_PSQI_global"] - w["b_PSQI_global"]
     dy = d["diary"]
     ip = dy[(dy["in_programme"] == 1) & (dy["linked"] == 1)]

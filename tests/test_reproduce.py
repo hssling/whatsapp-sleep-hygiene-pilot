@@ -22,7 +22,8 @@ def close(a, b, tol=0.005):
 def test_flow(R):
     f = R["flow"]
     assert (f["third_year"], f["third_year_poor"], f["joined_poor"], f["joined_good"]) == (132, 44, 32, 22)
-    assert (f["poor_analysed"], f["good_analysed"], f["good_excluded_consent"]) == (24, 15, 1)
+    assert (f["poor_analysed"], f["good_analysed"], f["good_excluded_consent"]) == (24, 16, 0)
+    assert f["consent_confirmed_in_writing"] == 1
     assert (f["group_members"], f["submitted_any"], f["linked"], f["unlinked"]) == (59, 57, 54, 3)
 
 
@@ -54,4 +55,4 @@ def test_sensitivity(R):
     assert close(R["missing"]["no_change"]["est"], -3.25, 0.01)
     assert close(R["status"]["completed"]["mean_diff"], -5.05, 0.01)
     assert close(R["status"]["not_completed"]["mean_diff"], -1.60, 0.01)
-    assert close(R["good"]["psqi"]["mean_diff"], -1.40, 0.01)
+    assert close(R["good"]["psqi"]["mean_diff"], -1.44, 0.01)

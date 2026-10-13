@@ -62,11 +62,13 @@ One row per submitted form: each participant's baseline form(s) and follow-up fo
 | `fu_status` | Follow-up form item on programme participation: `Completed`, `Lost to follow-up`, `Withdrawn` |
 | `consent_agree` | Answer to "I agree to participate in this digital form" on the follow-up form |
 | `consent_items_yes` | Number of the nine consent statements answered "Yes" on the follow-up form |
+| `consent_confirmed_in_writing` | 1 = consent confirmed in writing after the form was submitted |
 | `fu_adh_fixed`, `fu_adh_screen`, `fu_adh_caffeine` | Self-reported adherence on most days: Yes / Partly / No |
 | `fu_adh_overall` | Overall adherence: Good / Moderate / Poor |
 | `fu_useful` | Did the guidance feel useful? Yes / Partly / No |
 
-Follow-up forms are analysed only when `consent_agree` is "Yes" (one form is excluded on this rule).
+Follow-up forms are analysed when `consent_agree` is "Yes" or `consent_confirmed_in_writing` is 1. One student
+answered "No" to the agreement item and later confirmed consent in writing; that form is analysed.
 The status item records programme participation, not consent.
 
 ## `diary.csv` — daily online diary (653 entries after removing duplicate dates)

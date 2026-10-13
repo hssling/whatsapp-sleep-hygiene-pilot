@@ -66,7 +66,8 @@ tests/                   regression tests for the published values
   spreadsheet's automatic scores, are reproduced for comparison.
 * **Regression to the mean**: expected change = (1 - r) x (group baseline mean - cohort mean), over assumed
   test-retest correlations r from 0 to 0.9.
-* **Consent**: a follow-up form is analysed only if the respondent agreed to participate on that form.
+* **Consent**: a follow-up form is analysed only if the respondent agreed to participate on that form or later
+  confirmed consent in writing (one form; `consent_confirmed_in_writing`).
 
 ## Data protection
 
