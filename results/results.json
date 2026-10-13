@@ -42,7 +42,9 @@
       "median": -48.0,
       "min": -48.0,
       "max": -47.0
-    }
+    },
+    "first_cluster_n": 20,
+    "second_cluster_n": 20
   },
   "reminders": {
     "messages": 33,

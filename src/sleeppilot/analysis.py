@@ -64,7 +64,10 @@ def run():
         "baseline_to_followup": _desc(obs["fu_day"] - obs["b_day"]),
         "programme_start_to_followup": _desc(obs["fu_day"]),
         "after_programme_end": _desc(obs["fu_day"] - PROGRAMME_LAST_DAY),
-        "baseline_day": _desc(obs["b_day"])}
+        "baseline_day": _desc(obs["b_day"]),
+        "first_cluster_n": int((obs["fu_day"] <= 32).sum()),       # 13-14 August (days 31-32)
+        "second_cluster_n": int((obs["fu_day"] >= 38).sum())}      # 20-23 August (days 38-41)
+    assert R["interval_days"]["first_cluster_n"] + R["interval_days"]["second_cluster_n"] == len(obs)
     rem = d["reminders"]
     rem_in = rem[rem["prog_day"].between(1, PROGRAMME_LAST_DAY)]
     R["reminders"] = dict(messages=int(rem_in["diary_reminders"].sum()), days=int(len(rem_in)))
