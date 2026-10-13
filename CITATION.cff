@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite the article and this repository."
+title: "Data and code: sleep quality among medical students after a WhatsApp-supported sleep-hygiene programme (exploratory uncontrolled pilot study)"
+type: software
+authors:
+  - family-names: "H S"
+    given-names: "Siddalingaiah"
+    orcid: "https://orcid.org/0000-0002-4771-8285"
+  - family-names: "Masali"
+    given-names: "Preethi Ashok"
+    orcid: "https://orcid.org/0009-0009-8996-0027"
+repository-code: "https://github.com/hssling/whatsapp-sleep-hygiene-pilot"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-13"

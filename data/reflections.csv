@@ -1,0 +1,51 @@
+respondent,pid,roster_status,hours_method,faculty_influence,phone_visibility,change_now,change_end,habit_now_fixed,habit_now_screen,habit_now_caffeine,habit_now_phone,habit_now_winddown
+R01,S165,programme,Checked my bed and wake times and worked it out,3.0,I did not notice,About the same,A little better,Sometimes,Sometimes,Still most nights,Still most nights,Sometimes
+R02,,anonymous,Checked my bed and wake times and worked it out,3.0,No,Much better,Much better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R03,S326,programme,Checked my bed and wake times and worked it out,1.0,I did not notice,A little better,Better,Sometimes,,Still most nights,Sometimes,Sometimes
+R04,S067,programme,Checked my bed and wake times and worked it out,3.0,I did not notice,A little better,A little worse,Sometimes,Sometimes,Sometimes,Stopped,Stopped
+R05,,anonymous,Checked my bed and wake times and worked it out,2.0,No,A little better,Better,Still most nights,Sometimes,Still most nights,Still most nights,Sometimes
+R06,,anonymous,Checked my bed and wake times and worked it out,,No,Better,A little worse,Still most nights,Sometimes,Still most nights,Still most nights,Still most nights
+R07,,anonymous,Entered the 8 hours we aimed for,3.0,Yes,Better,Better,Still most nights,Never started,Never started,Never started,Never started
+R08,,anonymous,Entered the 8 hours we aimed for,3.0,No,About the same,A little better,Still most nights,Sometimes,Still most nights,Sometimes,Sometimes
+R09,S003,programme,Entered the 8 hours we aimed for,2.0,No,Better,Better,Sometimes,Sometimes,Still most nights,Still most nights,Sometimes
+R10,S293,programme,Checked my bed and wake times and worked it out,3.0,I did not notice,Better,Better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R11,S118,programme,Made a rough estimate,4.0,No,Better,Better,Sometimes,Sometimes,Sometimes,Sometimes,Sometimes
+R12,S346,programme,Checked my bed and wake times and worked it out,1.0,No,A little better,Better,Still most nights,Still most nights,Sometimes,Still most nights,Still most nights
+R13,,anonymous,Made a rough estimate,3.0,No,Better,A little better,Still most nights,Sometimes,Stopped,Sometimes,Never started
+R14,S231,programme,Checked my bed and wake times and worked it out,1.0,No,Better,Better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R15,S106,programme,Checked my bed and wake times and worked it out,3.0,Yes,Better,Better,Sometimes,Still most nights,Stopped,Sometimes,Sometimes
+R16,,anonymous,Made a rough estimate,3.0,I did not notice,About the same,About the same,Never started,Never started,Still most nights,Never started,Never started
+R17,,anonymous,Checked my bed and wake times and worked it out,2.0,No,Better,Better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R18,,anonymous,Checked my bed and wake times and worked it out,3.0,Yes,About the same,About the same,Sometimes,Sometimes,Sometimes,Sometimes,Sometimes
+R19,S197,programme,Checked my bed and wake times and worked it out,1.0,Yes,Better,Better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R20,,anonymous,Checked my bed and wake times and worked it out,3.0,No,A little better,A little better,Sometimes,Sometimes,Sometimes,Sometimes,Sometimes
+R21,,anonymous,Made a rough estimate,4.0,I did not notice,A little better,A little worse,Sometimes,Sometimes,Sometimes,Sometimes,Sometimes
+R22,S038,programme,Checked my bed and wake times and worked it out,2.0,No,Better,Better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R23,S193,baseline_no_diary_record,Made a rough estimate,3.0,No,Better,Better,Sometimes,Sometimes,Never started,Sometimes,Stopped
+R24,S279,programme,Checked my bed and wake times and worked it out,3.0,No,A little better,A little better,Still most nights,Sometimes,Still most nights,Sometimes,Sometimes
+R25,,anonymous,Checked my bed and wake times and worked it out,4.0,No,A little better,About the same,Sometimes,Sometimes,Sometimes,Sometimes,Sometimes
+R26,S316,programme,Checked my bed and wake times and worked it out,4.0,I did not notice,Better,Better,Still most nights,Sometimes,Still most nights,Sometimes,Sometimes
+R27,S025,baseline_no_diary_record,Made a rough estimate,2.0,Yes,Better,Better,Sometimes,Sometimes,Sometimes,Sometimes,Sometimes
+R28,,anonymous,Checked my bed and wake times and worked it out,5.0,I did not notice,Better,Better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R29,S148,programme,Made a rough estimate,1.0,No,A little better,A little better,Sometimes,Sometimes,Never started,Still most nights,Sometimes
+R30,,anonymous,Other,3.0,No,About the same,About the same,Sometimes,Sometimes,Sometimes,Sometimes,Sometimes
+R31,,anonymous,Checked my bed and wake times and worked it out,3.0,No,A little worse,About the same,Sometimes,Sometimes,Sometimes,Sometimes,Sometimes
+R32,,anonymous,Made a rough estimate,3.0,I did not notice,About the same,About the same,Sometimes,Sometimes,Still most nights,Sometimes,Sometimes
+R33,S063,programme,Checked my bed and wake times and worked it out,4.0,No,Better,A little better,Sometimes,Stopped,Stopped,Stopped,Sometimes
+R34,S308,programme,Made a rough estimate,2.0,No,A little better,Better,Sometimes,Sometimes,Sometimes,Still most nights,Still most nights
+R35,,anonymous,Checked my bed and wake times and worked it out,3.0,No,A little better,Better,,Stopped,Stopped,Stopped,Sometimes
+R36,S254,baseline_no_diary_record,Made a rough estimate,5.0,I did not notice,Much better,Better,Sometimes,Sometimes,Stopped,Sometimes,Sometimes
+R37,,anonymous,Checked my bed and wake times and worked it out,3.0,No,About the same,About the same,Still most nights,Never started,Never started,Sometimes,Never started
+R38,,anonymous,Made a rough estimate,4.0,No,Better,Better,Sometimes,Sometimes,Still most nights,Still most nights,Sometimes
+R39,S168,baseline_no_diary_record,Made a rough estimate,2.0,No,Better,A little better,Still most nights,Sometimes,Sometimes,Stopped,Stopped
+R40,S170,baseline_no_diary_record,Checked my bed and wake times and worked it out,3.0,No,Much better,Much better,Sometimes,Stopped,Stopped,Stopped,Stopped
+R41,,anonymous,Made a rough estimate,4.0,I did not notice,A little better,A little better,,Sometimes,Still most nights,Sometimes,Sometimes
+R42,S127,programme,Checked my bed and wake times and worked it out,5.0,No,Much better,Much better,Never started,Never started,Stopped,Stopped,Stopped
+R43,S223,programme,Made a rough estimate,2.0,No,About the same,A little better,Still most nights,Still most nights,Stopped,Still most nights,Still most nights
+R44,S209,programme,Checked my bed and wake times and worked it out,4.0,No,Better,Much better,Still most nights,Stopped,Stopped,Sometimes,Still most nights
+R45,S180,programme,Checked my bed and wake times and worked it out,2.0,No,Better,Much better,Still most nights,Sometimes,Still most nights,Still most nights,Still most nights
+R46,,anonymous,Checked my bed and wake times and worked it out,4.0,Yes,Much better,Much better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R47,,anonymous,Checked my bed and wake times and worked it out,5.0,No,Much better,Much better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R48,S050,programme,Made a rough estimate,3.0,No,A little better,A little better,Sometimes,Sometimes,Stopped,Still most nights,Sometimes
+R49,S041,programme,Checked my bed and wake times and worked it out,4.0,No,Much better,Much better,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights
+R50,,anonymous,Made a rough estimate,3.0,No,Better,A little worse,Still most nights,Still most nights,Still most nights,Still most nights,Still most nights

@@ -1,0 +1,20 @@
+Analysis,n,Change (95% CI),Note
+"Primary analysis: Night-anchored scoring, complete cases",24,−4.33 (−5.52 to −3.15),
+"Scoring of bedtimes: Clock times read as entered, both time points",24,−3.79 (−5.07 to −2.52),
+"Scoring of bedtimes: Spreadsheet's automatic scores, both time points",24,−3.58 (−4.84 to −2.33),
+"Scoring of bedtimes: Mixed: night-anchored baseline, spreadsheet follow-up",24,−3.04 (−4.31 to −1.77),two different rules; not a valid comparison
+Eligibility and baseline: Baseline PSQI >6 only (Indian validation cut-off),17,−4.65 (−6.12 to −3.17),
+Eligibility and baseline: Later duplicate baseline used for eligibility and baseline,20,−3.85 (−5.14 to −2.56),
+Eligibility and baseline: Duplicate baseline submitters excluded,19,−3.89 (−5.26 to −2.53),
+Eligibility and baseline: Without duration and efficiency components (0-15),24,−3.08 (−4.22 to −1.95),
+Missing follow-up: Missing follow-up assumed unchanged,32,−3.25 (−4.36 to −2.14),single imputation; interval too narrow
+Missing follow-up: Follow-up status recorded as completed,19,−5.05 (−6.25 to −3.86),
+Missing follow-up: Follow-up status not recorded as completed,5,−1.60 (−4.59 to 1.39),
+Missing follow-up: Excluding the form marked 'withdrawn',23,−4.39 (−5.63 to −3.16),
+"Regression to the mean: Adjusted, r = 0.87",24,−3.90 (−5.09 to −2.72),
+"Regression to the mean: Adjusted, r = 0.68",24,−3.28 (−4.46 to −2.09),
+"Regression to the mean: Adjusted, r = 0.5",24,−2.68 (−3.87 to −1.50),
+"Regression to the mean: Adjusted, r = 0",24,−1.03 (−2.22 to 0.15),
+"Regression to the mean: Baseline PSQI >6 only, adjusted, r = 0.68",17,−3.34 (−4.82 to −1.87),
+"Regression to the mean: Baseline PSQI >6 only, adjusted, r = 0",17,−0.58 (−2.05 to 0.90),
+Reference: Good sleepers (received the programme),15,−1.40 (−2.35 to −0.45),not a control group
